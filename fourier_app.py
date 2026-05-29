@@ -9,9 +9,9 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 
-# 解决Matplotlib中文乱码（Windows系统用微软雅黑）
-plt.rcParams["font.family"] = ["Microsoft YaHei"]
-plt.rcParams["axes.unicode_minus"] = False  # 解决负号显示问题
+# 加载本地的微软雅黑字体
+plt.rcParams['font.sans-serif'] = ['msyh.ttc']
+plt.rcParams['axes.unicode_minus'] = False  # 解决负号显示问题
 
 st.title("傅里叶级数的周期分解演示")
 

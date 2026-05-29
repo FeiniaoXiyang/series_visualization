@@ -10,9 +10,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-# 改用Windows默认的“微软雅黑”字体
-plt.rcParams["font.family"] = ["Microsoft YaHei"]
-plt.rcParams["axes.unicode_minus"] = False  # 解决负号显示问题
+# 加载本地的微软雅黑字体
+plt.rcParams['font.sans-serif'] = ['msyh.ttc']
+plt.rcParams['axes.unicode_minus'] = False  # 解决负号显示问题
 
 st.title("泰勒级数的局部逼近演示")
 
