@@ -37,10 +37,10 @@ for k in range(1, n_harmonics + 1, 2):
 
 # 绘图
 plt.figure(figsize=(10, 6))
-plt.plot(x, original_wave, label="原信号（方波）", color='blue', linewidth=2)
-plt.plot(x, fourier_sum, label=f"{n_harmonics}个正弦波叠加", color='green', linestyle='--', linewidth=2)
-plt.xlabel("x值（时间）")
-plt.ylabel("信号强度")
+plt.plot(x, original_wave, label="Original（Square wave）", color='blue', linewidth=2)
+plt.plot(x, fourier_sum, label=f"{n_harmonics}", color='green', linestyle='--', linewidth=2)
+plt.xlabel("xValue（Time）")
+plt.ylabel("Signal strength")
 plt.legend()
-plt.title("傅里叶级数：叠加的周期波越多，越接近原周期信号")
+plt.title("Overall approximation works well")
 st.pyplot(plt)
