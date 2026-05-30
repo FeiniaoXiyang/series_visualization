@@ -1,5 +1,5 @@
-streamlit
-numpy
-matplotlib
-scipy
-streamlit-audio-recorder
+streamlit>=1.30.0
+numpy>=1.25.0
+matplotlib>=3.7.0
+scipy>=1.11.0
+streamlit-mic-recorder==0.0.4  # 这个库云端兼容性更好
