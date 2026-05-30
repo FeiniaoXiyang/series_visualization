@@ -1,5 +1,5 @@
 streamlit
 numpy
 matplotlib
-sounddevice
 scipy
+streamlit-audio-recorder  # 新增这个库
