@@ -2,4 +2,4 @@ streamlit
 numpy
 matplotlib
 scipy
-streamlit-audio-recorder  # 新增这个库
+streamlit-audio-recorder
